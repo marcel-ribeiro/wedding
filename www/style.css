@@ -12,15 +12,19 @@ body {
     margin: 0;
 }
 .j-nav-variant-standard ul li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 40px;
-    height: 40px;
-    border-bottom: 1px solid #888;
+    display: inline-block;
+    margin-right: -4px;
 }
 
 .j-nav-variant-standard ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    vertical-align: middle;
     text-decoration: none;
-    color: #ffffff;
+    color: coral;
     display: block;
     transition: .3s background-color;
 }
@@ -30,37 +34,7 @@ body {
 }
 
 .j-nav-variant-standard a.active {
-    background-color: #fff;
-    color: #444;
+    background-color: #ffffff;
+    color: #4f4f4f;
     cursor: default;
-}
-
-@media screen and (min-width: 600px) {
-    .j-nav-variant-standard li {
-        width: 120px;
-        border-bottom: none;
-        height: 50px;
-        line-height: 50px;
-        font-size: 1.4em;
-    }
-
-    /* Option 1 - Display Inline */
-    .j-nav-variant-standard li {
-        display: inline-block;
-        margin-right: -4px;
-    }
-
-    /* Options 2 - Float
-    .j-nav-variant-standard li {
-      float: left;
-    }
-    .j-nav-variant-standard ul {
-      overflow: auto;
-      width: 600px;
-      margin: 0 auto;
-    }
-    .j-nav-variant-standard {
-      background-color: #444;
-    }
-    */
 }
