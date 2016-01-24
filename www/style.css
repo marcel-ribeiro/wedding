@@ -1,0 +1,97 @@
+body{
+	font: 0.8em/1.6em Verdana, sans-serif;
+	color: #486C73;
+}
+
+table {
+	color: #486c73;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+table, caption {
+	margin: 0 auto;
+	border-right: 1px solid #d8f1d8;
+	border-left: 1px solid #d8f1d8
+}
+
+caption, th, td {
+	border-left: 0;
+	padding: 10px
+}
+
+caption, thead th, thead td, tfoot th, tfoot td {
+	background-color: #f47e60;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+thead th, thead td {
+	background-color: #f46a56;
+	color: #FFB3A6;
+}
+thead th {
+	text-align: center;
+}
+thead td {
+	text-align: left;
+}
+
+tbody th {
+	text-align: center;
+}
+tbody td {
+	text-align: left;
+}
+
+
+tbody tr.odd {
+	background-color: #F7F7F7;
+	color: #486c73
+}
+
+tbody a {
+	padding: 1px 2px;
+	color: #486C73;
+	text-decoration: none;
+	border-bottom: 1px dotted #f46a56
+}
+
+tbody a:active, tbody a:hover, tbody a:focus, tbody a:visited {
+	color: #b8d2be
+}
+
+tbody tr:hover {
+	background-color: #EEE;
+	color: #3d5b73;
+}
+
+tbody tr:hover a {
+	background-color: #FFF
+}
+
+tbody td + td + td + td a {
+	color: #f46a56;
+	font-weight: bold;
+	border-bottom: 0
+}
+
+tbody td + td + td + td a:active, tbody td + td + td + td a:hover, tbody td + td + td + td a:focus, tbody td + td + td + td a:visited {
+	color: #f46a56
+}
+
+tbody td a[href="http://www.rodcast.com.br/"] {
+	margin: 0 auto;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: transparent url('data:image/gif;base64,R0lGODlhDwAPAIAAACEpMf///yH5BAAAAAAALAAAAAAPAA8AAAIjjA8Qer0JmYvULUOlxXEjaEndliUeA56c97TqSD5pfJnhNxYAOw%3D%3D') no-repeat;
+	text-indent: -999em;
+	border-bottom: 0
+}
+
+tbody a:visited:after {
+	font-family: Verdana, sans-serif;
+	content: "\00A0\221A"
+}
