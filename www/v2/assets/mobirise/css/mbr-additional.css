@@ -2,10 +2,10 @@
   font-size: 16px;
 }
 #ext_menu-14.mbr-navbar--stuck .mbr-navbar__section {
-  background: #a0826c;
+  background: #ffffff;
 }
 #msg-box5-42 .mbr-header__text {
-  color: #ecceb7;
+  color: #aabfae;
 }
 #msg-box5-42 .mbr-header__subtext {
   color: #ffffff;
@@ -15,9 +15,10 @@
 }
 #msg-box5-42 .mbr-article P {
   font-size: 14px;
+  color: #f8af8f;
 }
 #msg-box4-26 .mbr-header__text {
-  color: #ffbb98;
+  color: #f8af8f;
 }
 #msg-box4-26 .mbr-header__subtext {
   color: #ffbb98;
@@ -26,19 +27,19 @@
   color: #ffffff;
 }
 #msg-box4-26 .mbr-article P {
-  color: #486c73;
+  color: #aabfae;
   text-align: left;
 }
 #msg-box4-26 .mbr-article H3 {
   color: #6c9f8a;
 }
 #msg-box4-26 .mbr-article UL {
-  color: #486c73;
+  color: #aabfae;
   font-size: 19px;
   text-align: left;
 }
 #msg-box4-30 .mbr-header__text {
-  color: #ffbb98;
+  color: #f8af8f;
 }
 #msg-box4-30 .mbr-header__subtext {
   color: #ffffff;
@@ -47,14 +48,14 @@
   color: #ffffff;
 }
 #msg-box4-30 .mbr-article P {
-  color: #486c73;
+  color: #aabfae;
 }
 #msg-box4-30 .mbr-article UL {
-  color: #486c73;
+  color: #aabfae;
 }
 #content5-12 .mbr-header .mbr-header__text {
   text-align: center;
-  color: #ffbb98;
+  color: #f8af8f;
 }
 #content5-12 .mbr-header .mbr-header__subtext {
   text-align: center;
@@ -64,20 +65,20 @@
   color: #fff;
 }
 #content5-12 .mbr-article P {
-  color: #486c73;
+  color: #f8af8f;
   text-align: left;
 }
 #content4-14 .mbr-section__col .mbr-header__text {
-  color: #486c73;
+  color: #f8af8f;
 }
 #content4-14 P {
-  color: #486c73;
+  color: #aabfae;
 }
 #form1-20 .mbr-header__text {
   color: #ffffff;
 }
 #form1-15 .mbr-header__text {
-  color: #486c73;
+  color: #aabfae;
 }
 #contacts1-17 STRONG {
   color: #ffffff;
