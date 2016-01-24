@@ -72,3 +72,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+*.ai
+*.eps
+*.zip
+*.txt
