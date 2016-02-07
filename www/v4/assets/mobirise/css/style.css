@@ -629,7 +629,7 @@ html {
   }
 }
 .mbr-arrow {
-  bottom: 71px;
+  bottom: 40px;
   left: 0;
   line-height: 1px;
   padding: 0 20px;
@@ -734,7 +734,7 @@ html {
   vertical-align: bottom;
 }
 .mbr-box__magnet--sm-padding {
-  padding: 120px 0;
+  padding: 95px 0;
 }
 .mbr-box__magnet--top-left,
 .mbr-box__magnet--top-center,
