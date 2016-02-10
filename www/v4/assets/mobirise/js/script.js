@@ -423,3 +423,31 @@
         document.body.insertBefore(e, document.body.childNodes[0]);
     }
 }();
+
+/*
+* Shows or hides the fields for guests and dietary restrictions
+* */
+var displayRsvpFields = function() {
+    var attendanceYes = "GLADLY ACCEPTS";
+    var attendanceVal = $('input[name=attendance]:checked', '#RSVP').val();
+    var isAttending = attendanceVal === attendanceYes ? true : false;
+
+    $('input[name=attendanceSelected]', '#RSVP').val(attendanceVal);
+
+    if (isAttending) {
+        $('input[name=guests]', '#RSVP').show('slow').val('');
+        $('textarea[name=requirements]', '#RSVP').show('slow');
+    } else {
+        $('input[name=guests]', '#RSVP').hide('slow', function() {
+            $('input[name=guests]', '#RSVP').val('0');
+        });
+        $('textarea[name=requirements]', '#RSVP').hide('slow');
+    }
+};
+$('#RSVP input').ready(function() {
+    displayRsvpFields();
+});
+
+$('#RSVP input[name=attendance]').on('change', function() {
+    displayRsvpFields();
+});
