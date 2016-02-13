@@ -6,6 +6,9 @@ html {
   position: relative;
   min-height: 100%;
 }
+body{
+  font-size: 19px;
+}
 
 @media (min-width : 992px) {
   .content-outer{
@@ -1152,7 +1155,7 @@ html {
 }
 .mbr-contacts {
   color: #9c9c9c;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 1.7em;
   padding: 45px 0 46px;
 }
@@ -1337,7 +1340,7 @@ html {
 }
 .mbr-article {
   color: #777;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 27px;
   text-align: left;
   position: relative;
@@ -1603,6 +1606,10 @@ html {
 .btn{
   font-size: 20px;
 }
+.form-control {
+  font-size: 19px;
+}
+
 .text-shadow-white {
   text-shadow: -1px 0 2px #ffffff, 0 1px 2px #ffffff,
   1px 0 2px #ffffff, 0 -1px 2px #ffffff
