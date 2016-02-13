@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Parisienne:400,300,700);
 
 #slider-13 H1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Parisienne', sans-serif;
 }
 #ext_menu-14 .mbr-brand__name {
-  font-size: 16px;
+  font-size: 20px;
 }
 #ext_menu-14.mbr-navbar--stuck .mbr-navbar__section {
   background: #ffffff;

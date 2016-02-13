@@ -816,7 +816,7 @@ html {
   position: relative;
 }
 .mbr-hero__text {
-  font-size: 46px;
+  font-size: 36px;
   font-weight: bold;
   left: -2px;
   letter-spacing: 2px;
@@ -827,7 +827,7 @@ html {
   top: 8px;
 }
 .mbr-hero__subtext {
-  font-size: 21px;
+  font-size: 20px;
   line-height: 29px;
   margin: -32px 0 3px 0;
   padding: 0 0 41px 0;
@@ -1080,7 +1080,7 @@ html {
 }
 .mbr-header__text {
   display: block;
-  font-size: 25px;
+  font-size: 36px;
   font-weight: bold;
   letter-spacing: 6px;
   line-height: 1.5em;
@@ -1596,6 +1596,10 @@ html {
 }
 
 /*additional*/
+
+.btn{
+  font-size: 20px;
+}
 .text-shadow-white {
   text-shadow: -1px 0 2px #ffffff, 0 1px 2px #ffffff,
   1px 0 2px #ffffff, 0 -1px 2px #ffffff
