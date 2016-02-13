@@ -154,6 +154,7 @@ html {
   position: absolute;
   top: 0;
   z-index: 1000;
+  width: 100%;
 }
 @media (max-width : 992px) {
   .mbr-navbar__section {
@@ -1596,7 +1597,9 @@ html {
 }
 
 /*additional*/
-
+.row{
+  margin: 0px;
+}
 .btn{
   font-size: 20px;
 }
