@@ -6,19 +6,20 @@ html {
   position: relative;
   min-height: 100%;
 }
-.content-outer{
-  z-index: 1000;
-  width:100%;
-  margin-left:0px;
-  padding:0em 0;
-  background: url(../../images/bg-lace.png) repeat-y left top;
-  background-position: -99px;
-}
 
-.content-inner{
-  background:transparent url(../../images/bg-lace.png) repeat-y right -104px top;
-  /*width:100%;*/
-  padding:0px 0;
+@media (min-width : 992px) {
+  .content-outer{
+    z-index: 1000;
+    width:100%;
+    margin-left:0px;
+    padding:0em 0;
+    background: #FFFFFF url(../../images/bg-lace.png) repeat-y left top;
+    background-position: -99px;
+  }
+
+  .content-inner{
+    background:transparent url(../../images/bg-lace.png) repeat-y right -104px top;
+  }
 }
 
 .mbr-embedded-video {
@@ -152,8 +153,13 @@ html {
   height: auto;
   position: absolute;
   top: 0;
-  width: 100%;
   z-index: 1000;
+}
+@media (max-width : 992px) {
+  .mbr-navbar__section {
+    width: 93%;
+  }
+
 }
 .mbr-navbar__container {
   display: table;
@@ -453,6 +459,7 @@ html {
 }
 .mbr-brand--inline {
   display: table;
+  margin-left: 20px;
 }
 .mbr-brand--inline:after {
   content: "";
@@ -1234,9 +1241,6 @@ html {
 .mbr-buttons--right .mbr-buttons__link {
   margin: 0 0 13px 10px;
 }
-.mbr-buttons--right.mbr-buttons--only-links {
-  left: 20px;
-}
 .mbr-buttons--activated {
   left: 5px;
   text-align: center;
@@ -1595,4 +1599,11 @@ html {
 .text-shadow-white {
   text-shadow: -1px 0 2px #ffffff, 0 1px 2px #ffffff,
   1px 0 2px #ffffff, 0 -1px 2px #ffffff
+}
+
+.section-our-story-title, .section-our-story, .section-details-title, .section-details, .section-accommodation, .section-contact{
+  background-color:#FFFFFF;
+}
+.section-rsvp{
+  background-color: #f2dede;
 }
