@@ -10,21 +10,6 @@ body{
   font-size: 19px;
 }
 
-@media (min-width : 992px) {
-  .content-outer{
-    z-index: 1000;
-    width:100%;
-    margin-left:0px;
-    padding:0em 0;
-    background: #FFFFFF url(../../images/bg-lace.png) repeat-y left top;
-    background-position: -99px;
-  }
-
-  .content-inner{
-    background:transparent url(../../images/bg-lace.png) repeat-y right -104px top;
-  }
-}
-
 .mbr-embedded-video {
   position: relative;
 }
@@ -1600,6 +1585,22 @@ body{
 }
 
 /*additional*/
+
+@media (min-width : 992px) {
+  .content-outer{
+    z-index: 1000;
+    width:100%;
+    margin-left:0px;
+    padding:0em 0;
+    background: #FFFFFF url(../../images/bg-lace.png) repeat-y left top;
+    background-position: -99px;
+  }
+
+  .content-inner{
+    background:transparent url(../../images/bg-lace.png) repeat-y right -104px top;
+  }
+}
+
 .row{
   margin: 0px;
 }
