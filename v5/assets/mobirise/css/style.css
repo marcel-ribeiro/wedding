@@ -1633,3 +1633,7 @@ body{
 .section-rsvp{
   background-color: #f2dede;
 }
+
+.fa, .fa:hover, .fa:focus {
+  color: #fff;
+}
