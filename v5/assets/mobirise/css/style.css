@@ -746,6 +746,9 @@ body{
   vertical-align: bottom;
 }
 .mbr-box__magnet--sm-padding {
+  padding: 40px 0;
+}
+.mbr-box__magnet--sm-padding-with-buttons {
   padding: 95px 0;
 }
 .mbr-box__magnet--top-left,
