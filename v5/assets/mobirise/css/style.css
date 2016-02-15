@@ -746,7 +746,7 @@ body{
   vertical-align: bottom;
 }
 .mbr-box__magnet--sm-padding {
-  padding: 0;
+  padding: 95px 0;
 }
 .mbr-box__magnet--top-left,
 .mbr-box__magnet--top-center,
@@ -1142,7 +1142,7 @@ body{
   color: #9c9c9c;
   font-size: 19px;
   line-height: 1.7em;
-  padding: 45px 0 46px;
+  padding: 15px 0 15px;
 }
 .mbr-contacts__img {
   max-width: 100%;
@@ -1623,6 +1623,10 @@ body{
 .section-our-story-title, .section-our-story, .section-details-title, .section-details, .section-accommodation, .section-contact{
   background-color:#FFFFFF;
 }
+.section-accommodation{
+  margin-top: 30px;
+}
+
 .section-rsvp{
   background-color: #f2dede;
 }
