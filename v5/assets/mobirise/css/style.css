@@ -1636,3 +1636,11 @@ body{
 .fa, .fa:hover, .fa:focus {
   color: #fff;
 }
+
+.fa-viber{
+  background-image: url(../../images/viber-icon.ico);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 18px;
+  height: 16px;
+}
