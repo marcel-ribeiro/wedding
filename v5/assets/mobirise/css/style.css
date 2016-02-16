@@ -7,7 +7,7 @@ html {
   min-height: 100%;
 }
 body{
-  font-size: 19px;
+  font-size: 21px;
 }
 
 .mbr-embedded-video {
@@ -1143,7 +1143,7 @@ body{
 }
 .mbr-contacts {
   color: #9c9c9c;
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.7em;
   padding: 15px 0 15px;
 }
@@ -1328,7 +1328,7 @@ body{
 }
 .mbr-article {
   color: #777;
-  font-size: 19px;
+  font-size: 21px;
   line-height: 27px;
   text-align: left;
   position: relative;
@@ -1356,7 +1356,7 @@ body{
   letter-spacing: 2px;
 }
 .mbr-article--wysiwyg h3 {
-  font-size: 19px;
+  font-size: 21px;
   letter-spacing: 1px;
 }
 .mbr-article--wysiwyg h4 {
@@ -1610,7 +1610,7 @@ body{
   font-size: 20px;
 }
 .form-control {
-  font-size: 19px;
+  font-size: 21px;
 }
 
 .text-shadow-white {
