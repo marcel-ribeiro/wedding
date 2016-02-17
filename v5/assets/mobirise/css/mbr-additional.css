@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes:400:300:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 #slider-13 H1 {
   font-family: 'Great Vibes', cursive;
 }
@@ -34,10 +36,6 @@
 #msg-box5-42 .mbr-article DIV {
   color: #356782;
 }
-#content5-14 .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #356782;
-}
 #content5-14 .mbr-header .mbr-header__subtext {
   text-align: center;
   color: #fff;
@@ -52,10 +50,6 @@
   color: #356782;
 }
 #contacts2-15 UL {
-  color: #356782;
-}
-#content5-12 .mbr-header .mbr-header__text {
-  text-align: center;
   color: #356782;
 }
 #content5-12 .mbr-header .mbr-header__subtext {
@@ -75,13 +69,12 @@
 #content4-14 P {
   color: #356782;
 }
-#form1-20 .mbr-header__text {
+.mbr-header__text {
+  text-align: center;
   color: #356782;
+  font-family: 'Great Vibes', cursive;
 }
 #form1-20 {
-  color: #356782;
-}
-#form1-15 .mbr-header__text {
   color: #356782;
 }
 #contacts1-17 STRONG {

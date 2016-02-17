@@ -7,7 +7,7 @@ html {
   min-height: 100%;
 }
 body{
-  font-size: 21px;
+  font-size: 16px;
 }
 
 .mbr-embedded-video {
@@ -39,6 +39,7 @@ body{
   background-attachment: scroll !important;
 }
 .mbr-navbar {
+  font-family: 'Great Vibes', cursive;
   position: relative;
   width: 100%;
 }
@@ -1143,9 +1144,13 @@ body{
 }
 .mbr-contacts {
   color: #9c9c9c;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 1.7em;
   padding: 15px 0 15px;
+}
+.mbr-contacts .mbr-contacts-header{
+  font-family: 'Great Vibes', cursive;
+  font-size: 23px;
 }
 .mbr-contacts__img {
   max-width: 100%;
@@ -1328,7 +1333,7 @@ body{
 }
 .mbr-article {
   color: #777;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 27px;
   text-align: left;
   position: relative;
@@ -1611,6 +1616,7 @@ body{
 }
 .btn{
   font-size: 20px;
+  font-family: 'Great Vibes', cursive;
 }
 .form-control {
   font-size: 21px;
@@ -1625,6 +1631,10 @@ body{
   1px 0 2px #356782, 0 -1px 2px #356782
 }
 
+.mbr-slider{
+  font-family: 'Great Vibes', cursive;
+}
+
 .section-our-story-title, .section-our-story, .section-details-title, .section-details, .section-accommodation, .section-contact{
   background-color:#FFFFFF;
 }
@@ -1634,6 +1644,11 @@ body{
 
 .section-rsvp{
   background-color: #f2dede;
+}
+
+.footer{
+  background-color: #356782;
+  font-family: 'Great Vibes', cursive;
 }
 
 .fa, .fa:hover, .fa:focus {
