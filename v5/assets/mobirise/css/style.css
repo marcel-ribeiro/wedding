@@ -1587,7 +1587,10 @@ body{
 	padding: 0;
 }
 
-/*additional*/
+/*custom*/
+.mbr-navbar--opaque .mbr-navbar__section {
+  background-color: rgba(255,255,255, 0.6);
+}
 
 @media (min-width : 992px) {
   .content-outer{
