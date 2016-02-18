@@ -1601,13 +1601,11 @@ body{
   .content-outer{
     margin-left:0px;
     padding:0em 0;
-    background: #fff url(../../images/bg-lace.png) repeat-y left -100px top;
-    background-attachment: fixed;
+    background: #fff url(../../images/bg-lace-new.png) repeat-y fixed left 0px top;
   }
 
   .content-inner{
-    background: url(../../images/bg-lace.png) repeat-y right -100px top;
-    background-attachment: fixed;
+    background: url(../../images/bg-lace-new2.png) repeat-y fixed right 0px top;
   }
 }
 
