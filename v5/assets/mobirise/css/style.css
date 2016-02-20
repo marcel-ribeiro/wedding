@@ -1181,7 +1181,6 @@ body{
 
 .mbr-contacts {
   color: #9c9c9c;
-  font-size: 20px;
   line-height: 1.7em;
   padding: 15px 0 15px;
 }
@@ -1201,7 +1200,7 @@ body{
 }
 .mbr-contacts__header {
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 20px;
   margin-top: 3px;
@@ -1683,7 +1682,6 @@ body{
 
 .footer{
   background-color: #356782;
-  font-family: 'Great Vibes', cursive;
 }
 
 .fa, .fa:hover, .fa:focus {
