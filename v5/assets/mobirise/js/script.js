@@ -440,3 +440,6 @@ $('#RSVP input').ready(function() {
 $('#RSVP input[name=attendance]').on('change', function() {
     displayRsvpFields();
 });
+$(function () {
+    $('[data-toggle="popover"]').popover()
+});
