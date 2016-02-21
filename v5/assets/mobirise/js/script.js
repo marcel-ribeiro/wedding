@@ -92,9 +92,12 @@
 
         // .mbr-navbar--sticky
         $(window).scroll(function(){
-            $('.mbr-navbar--sticky').each(function(){
-                var method = $(window).scrollTop() > 10 ? 'addClass' : 'removeClass';
-                $(this)[method]('mbr-navbar--stuck')
+            $('.mbr-navbar').each(function(){
+                var fullheightWithpx = $('.mbr-section--full-height').css('height');
+                var fullheight = parseInt(fullheightWithpx, 10);
+
+                var method = $(window).scrollTop() > fullheight ? 'addClass' : 'removeClass';
+                $(this)[method]('mbr-navbar--stuck')[method]('mbr-navbar--sticky')
                     .not('.mbr-navbar--open');
             });
         });
@@ -122,25 +125,35 @@
                 $('.mbr-hamburger--open').click();
         });
 
-        if ($.isMobile() && navigator.userAgent.match(/Chrome/i)){ // simple fix for Chrome's scrolling
-            (function(width, height){
-                var deviceSize = [width, width];
-                deviceSize[height > width ? 0 : 1] = height;
-                $(window).smartresize(function(){
-                    var windowHeight = $(window).height();
-                    if ($.inArray(windowHeight, deviceSize) < 0)
-                        windowHeight = deviceSize[ $(window).width() > windowHeight ? 1 : 0 ];
-                    $('.mbr-section--full-height').css('height', windowHeight + 'px');
+        setfullheight();
+
+        function setfullheight() {
+            fullheight = 0;
+            if ($.isMobile() && navigator.userAgent.match(/Chrome/i)) { // simple fix for Chrome's scrolling
+                (function (width, height) {
+                    var deviceSize = [width, width];
+                    deviceSize[height > width ? 0 : 1] = height;
+                    $(window).smartresize(function () {
+                        var windowHeight = $(window).height();
+                        if ($.inArray(windowHeight, deviceSize) < 0)
+                            windowHeight = deviceSize[$(window).width() > windowHeight ? 1 : 0];
+
+                        fullheight = windowHeight;
+                        $('.mbr-section--full-height').css('height', fullheight + 'px');
+                    });
+                })($(window).width(), $(window).height());
+            } else if (!isSupportViewportUnits) { // fallback for .mbr-section--full-height
+                $(window).smartresize(function () {
+                    fullheight = $(window).height();
+                    $('.mbr-section--full-height').css('height', fullheight + 'px');
                 });
-            })($(window).width(), $(window).height());
-        } else if (!isSupportViewportUnits){ // fallback for .mbr-section--full-height
-            $(window).smartresize(function(){
-                $('.mbr-section--full-height').css('height', $(window).height() + 'px');
-            });
-            $(document).on('add.cards', function(event){
-                if ($('html').hasClass('mbr-site-loaded') && $(event.target).outerFind('.mbr-section--full-height').length)
-                    $(window).resize();
-            });
+                $(document).on('add.cards', function (event) {
+                    if ($('html').hasClass('mbr-site-loaded') && $(event.target).outerFind('.mbr-section--full-height').length)
+                        $(window).resize();
+                });
+            }
+
+            return fullheight;
         }
 
         // .mbr-section--16by9 (16 by 9 blocks autoheight)
