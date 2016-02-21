@@ -1637,11 +1637,11 @@ body{
   .content-outer{
     margin-left:0px;
     padding:0em 0;
-    background: #fff url(../../images/bg-lace-new.png) repeat-y fixed left 0px top;
+    background: #fff url(../../images/bg-lace.png) repeat-y fixed left -113px top;
   }
 
   .content-inner{
-    background: url(../../images/bg-lace-new2.png) repeat-y fixed right 0px top;
+    background: url(../../images/bg-lace.png) repeat-y fixed right -113px top;
   }
 }
 
@@ -1685,6 +1685,11 @@ body{
 
 .footer{
   background-color: #356782;
+}
+
+.footer .icons-social-media a {
+  float: right;
+  margin: 0px 0px 0px 8px;
 }
 
 .fa, .fa:hover, .fa:focus {
