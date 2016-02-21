@@ -95,7 +95,7 @@
             $('.mbr-navbar--sticky').each(function(){
                 var method = $(window).scrollTop() > 10 ? 'addClass' : 'removeClass';
                 $(this)[method]('mbr-navbar--stuck')
-                    .not('.mbr-navbar--open')[method]('mbr-navbar--short');
+                    .not('.mbr-navbar--open');
             });
         });
 
