@@ -1632,6 +1632,10 @@ body{
 .mbr-navbar--opaque .mbr-navbar__section {
   background-color: rgba(255,255,255, 0.6);
 }
+.mbr-navbar--solid .mbr-navbar__section {
+  background-color: rgba(255,255,255, 1.0);
+}
+
 
 @media (min-width : 992px) {
   .content-outer{
@@ -1688,7 +1692,6 @@ body{
 }
 
 .footer .icons-social-media a {
-  float: left;
   margin: 0px 0px 0px 8px;
 }
 
