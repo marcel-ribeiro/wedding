@@ -1661,6 +1661,11 @@ body{
 }
 .form-control {
   font-size: 21px;
+  color: #356782;
+  background-color: #fff;
+}
+.section-contact .form-control{
+  background-color: #f6fcff;
 }
 
 .text-shadow-white {
