@@ -39,7 +39,7 @@ body{
   background-attachment: scroll !important;
 }
 .mbr-navbar {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
   position: relative;
   width: 100%;
 }
@@ -449,7 +449,7 @@ body{
 }
 .mbr-brand--inline {
   display: table;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .mbr-brand--inline:after {
   content: "";
@@ -809,7 +809,7 @@ body{
   position: relative;
 }
 .mbr-hero__text {
-  font-size: 36px;
+  font-size: 60px;
   font-weight: bold;
   left: -2px;
   letter-spacing: 2px;
@@ -820,7 +820,7 @@ body{
   top: 8px;
 }
 .mbr-hero__subtext {
-  font-size: 20px;
+  font-size: 35px;
   line-height: 29px;
   margin: -32px 0 3px 0;
   padding: 0 0 41px 0;
@@ -1073,9 +1073,9 @@ body{
 }
 .mbr-header__text {
   display: block;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bold;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   line-height: 1.5em;
   margin: 0;
 }
@@ -1149,12 +1149,12 @@ body{
   padding: 15px 0 15px;
 }
 .mbr-details .mbr-details-header {
-  font-family: 'Great Vibes', cursive;
-  font-size: 23px;
+  font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-size: 35px;
 }
 .mbr-details .mbr-details-header{
-  font-family: 'Great Vibes', cursive;
-  font-size: 23px;
+  font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-size: 35px;
 }
 .mbr-details__img {
   max-width: 100%;
@@ -1185,8 +1185,8 @@ body{
   padding: 15px 0 15px;
 }
 .mbr-contacts .mbr-contacts-header{
-  font-family: 'Great Vibes', cursive;
-  font-size: 23px;
+  font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-size: 30px;
 }
 .mbr-contacts__img {
   max-width: 100%;
@@ -1629,6 +1629,16 @@ body{
 }
 
 /*custom*/
+@font-face {
+  font-family: "Monterey";
+  src: url('../../fonts/monteryn.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Murray Hill BT Bold";
+  src: url('../../fonts/murrayhillboldregular.ttf') format('truetype');
+}
+
 .mbr-navbar--opaque .mbr-navbar__section {
   background-color: rgba(255,255,255, 0.6);
 }
@@ -1653,8 +1663,8 @@ body{
   margin: 0px;
 }
 .btn{
-  font-size: 20px;
-  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
 }
 .btn-languages{
   width: 150px;
@@ -1678,7 +1688,7 @@ body{
 }
 
 .mbr-slider{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
 }
 
 .section-our-story-title, .section-our-story, .section-details-title, .section-details, .section-accommodation, .section-contact{
