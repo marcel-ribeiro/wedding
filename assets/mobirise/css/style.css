@@ -809,7 +809,7 @@ body{
   position: relative;
 }
 .mbr-hero__text {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   left: -2px;
   letter-spacing: 2px;
@@ -820,7 +820,7 @@ body{
   top: 8px;
 }
 .mbr-hero__subtext {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 29px;
   margin: -32px 0 3px 0;
   padding: 0 0 41px 0;
