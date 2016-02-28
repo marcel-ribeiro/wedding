@@ -4,9 +4,6 @@
 #slider-13 H1 {
   font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
 }
-#ext_menu-14 .mbr-brand__name {
-  font-size: 35px;
-}
 #ext_menu-14.mbr-navbar--stuck .mbr-navbar__section {
   background: #ffffff;
   opacity: 1;  /* Opacity for Modern Browsers */

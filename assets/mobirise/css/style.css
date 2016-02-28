@@ -112,7 +112,13 @@ body{
   height: 64px;
 }
 .mbr-navbar--short .mbr-navbar__container {
-  padding: 12px 0;
+  padding: 12px;
+}
+@media (min-width: 1200px) {
+  .mbr-navbar--short .mbr-navbar__container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 @media (max-width: 767px) {
   .mbr-navbar--short .mbr-navbar__brand-link:after,
@@ -291,7 +297,7 @@ body{
 .mbr-navbar--relative .mbr-navbar__section {
   background: #2c2c2c;
 }
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
   .mbr-navbar--auto-collapse .mbr-navbar__container {
     position: relative;
   }
@@ -1663,9 +1669,43 @@ body{
   margin: 0px;
 }
 .btn{
-  font-size: 25px;
   font-family: 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
 }
+@media (min-width: 1000px) {
+  .btn{
+    padding: 9px 8px;
+  }
+
+  .btn, .mbr-brand__name {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1100px) {
+  .btn{
+    padding: 9px 10px;
+  }
+  .btn, .mbr-brand__name {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1350px) {
+  .btn{
+    padding: 9px 12px;
+  }
+  .btn, .mbr-brand__name {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1450px) {
+  .btn{
+    padding: 9px 18px;
+  }
+  .btn, .mbr-brand__name {
+    font-size: 35px;
+  }
+}
+
+
 .btn-languages{
   width: 150px;
 }
