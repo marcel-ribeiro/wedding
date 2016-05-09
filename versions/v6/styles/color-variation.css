@@ -1,0 +1,77 @@
+/*=================================
+ # Change the color Value
+ ==================================*/
+
+
+#main_navigation ul > li > a:hover,
+#main_navigation ul > li.active > a,
+#main_navigation ul li ul:before,
+.section_title span b,
+#groom_bride .info-box ul li a i:hover,
+#groom_bride .info-box button:hover,
+#groom_bride .info-box button:focus,
+#groom_bride .info-box button:active,
+#love_story .details a.read_more,
+#important_people .row div .info-box span,
+#event_parties .single_event .read_more,
+#rsvp .rsvp_wrap button[type="submit"]:hover,
+#rsvp .rsvp_wrap button[type="submit"]:focus,
+#rsvp .rsvp_wrap button[type="submit"]:active,
+#blog .single_blog_post label a,
+#blog .single_blog_post a.readmore:hover,
+#blog .single_blog_post a.readmore:focus,
+#blog .single_blog_post a.readmore:active,
+.footer_bottom a,
+.single #blog_content .content_top label.post_meta a,
+.single #blog_content .comment_section .single_comment .comment_details span.comment_time,
+.single #blog_content .comment_form .form_wrapper button[type=submit]:hover {
+    color: #8270A4;
+}
+#main_navigation ul > li > a:before,
+#main_navigation ul li ul,
+#slider .time_counter li,
+#groom_bride .info-box button,
+#love_story .details a.read_more:before,
+#love_story button.load_more:before,
+#event_parties .single_event .read_more:before,
+#rsvp .rsvp_wrap button[type="submit"],
+#blog .single_blog_post a.readmore,
+.blog #blog a.older_post:before,
+.single #author,
+.single #blog_content .comment_form .form_wrapper button[type=submit] {
+    background-color: #8270A4;
+}
+.single_groom:hover img,
+.single_bride:hover img,
+#groom_bride .info-box ul li a i:hover,
+#groom_bride .info-box:before,
+#love_story .details a.read_more,
+#love_story button.load_more,
+#important_people .row div ul li:hover img,
+#event_parties .single_event:hover,
+#event_parties .single_event .read_more,
+#rsvp .rsvp_wrap button[type="submit"]:before,
+#blog .single_blog_post a.readmore:before,
+#blog .single_blog_post:hover,
+.blog #blog a.older_post,
+.single #blog_content .comment_form .form_wrapper button[type=submit] {
+    border-color: #8270A4;
+}
+#qoute .overlay,
+.blog #header-featured .overlay {
+    background: rgba(130,112,164,.85);
+}
+#event_parties .single_event .image-wrap .overlay,
+#blog .single_blog_post .image-wrap .overlay {
+    background: rgba(130,112,164,.75);
+}
+#rsvp .overlay,
+#gallery ul li .overlay {
+    background-color: rgba(130,112,164,.9);
+}
+
+.single #blog_content .comment_form .form_top input[type=text]:focus,
+.single #blog_content .comment_form .form_top input[type=email]:focus,
+.single #blog_content .comment_form .form_wrapper textarea:focus {
+    box-shadow: 0 0 5px 3px rgba(130,112,164, .3);
+}
