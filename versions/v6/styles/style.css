@@ -49,7 +49,7 @@
 html,
 body{
     font-family: 'Open Sans';
-    color: #939393;
+    color: #main_navigation ul;
     font-size: 13px;
     line-height: 24px;
     overflow-x:hidden;
