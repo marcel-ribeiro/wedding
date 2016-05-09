@@ -1,0 +1,27 @@
+{
+  "name": "marcel-julie",
+  "homepage": "marcel-julie.info",
+  "authors": [
+    "Marcel Ribeiro <marcelserraribeiro@gmail.com>"
+  ],
+  "description": "Marcel & Julie Wedding Website",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "wow": "wowjs#^1.1.2",
+    "gmaps": "^0.4.24",
+    "font-awesome": "^4.6.2",
+    "animate.css": "^3.5.1"
+  }
+}
