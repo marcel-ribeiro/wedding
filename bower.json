@@ -20,8 +20,8 @@
     "jquery": "^2.2.3",
     "bootstrap": "^3.3.6",
     "wow": "wowjs#^1.1.2",
-    "gmaps": "^0.4.24",
     "font-awesome": "^4.6.2",
-    "animate.css": "^3.5.1"
+    "animate.css": "^3.5.1",
+    "gmaps": "^0.4.24"
   }
 }
