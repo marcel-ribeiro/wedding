@@ -1,0 +1,38 @@
+//colors
+$color-white: #ffffff !default;
+$color-blush: #f8efde !default;
+$color-blue-dark: #2d3e50 !default;
+$color-pink-dark: #F17677 !default;
+
+/*bootstrap default colors*/
+$color-gray-medium: rgba(255, 255, 255, .25) !default;
+
+
+//fonts
+$font-cinzel: "Cinzel", sans-serif, "Helvetica Neue",Helvetica,Arial  !default;
+$font-anthem: "Anthem", sans-serif, "Helvetica Neue",Helvetica,Arial  !default;
+$font-gothic: "Gothic", sans-serif, "Helvetica Neue",Helvetica,Arial  !default;
+$font-size-1: 12px !default;
+$font-size-2: 16px !default;
+$font-size-3: 30px !default;
+$font-size-4: 40px !default;
+$font-size-5: 50px !default;
+
+
+$navbar-default-color: $color-blue-dark !default;
+$navbar-default-bg: $color-white !default;
+$navbar-default-border: transparent !default;
+
+// Navbar links
+$navbar-default-link-color: $color-blue-dark !default;
+$navbar-default-link-hover-color: $color-blue-dark !default;
+$navbar-default-link-hover-bg: transparent !default;
+$navbar-default-link-active-color: $color-blue-dark !default;
+$navbar-default-link-active-bg: #ecf0f1 !default;
+$navbar-default-link-disabled-color: #ccc !default;
+$navbar-default-link-disabled-bg: transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color: $navbar-default-link-color !default;
+$navbar-default-brand-hover-color: darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg: transparent !default;

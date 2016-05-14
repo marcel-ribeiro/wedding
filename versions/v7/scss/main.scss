@@ -1,0 +1,169 @@
+/* TABLE OF CONTENT
+======================================
+# 0. Improting Variables
+# 1. Improting Styles
+# 2. Global Styles
+# 3. Header navbar / styles
+# 4. Section Title Styles
+# 5. Header Styles
+# 6. Slider Styles
+# 7. Curv Gray Styles
+# 8. Curv White Styles
+# 9. Groom and Bride Styles
+# 10.  Love Story Styles
+# 11.  Important People Styles
+# 12.  Qoute Styles
+# 13.  Event Parties Styles
+# 14.  Rsvp Styles
+# 15.  Blog Styles
+# 16.  Gallery Styles
+# 17.  Our Location Styles
+# 18.  Gmap Styles
+# 19.  Footer Styles
+# 20.  Blog Featured Styles
+# 21.  Blog Page Blog Section Styles
+# 22.  Blog Details Styles
+# 23.  Single blog_content Styles
+# 24.  Responsive Styles
+
+======================================
+*/
+/*==========================
+ # 1. Improting Variables
+ =========================*/
+/* base bootstrap official */
+@import "variables";
+
+/*==========================
+ # 1. Improting Styles
+ =========================*/
+@font-face {
+  font-family: "Anthem";
+  src: url('../fonts/Anthem.otf') format('truetype');
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url('../fonts/Gothic.ttf') format('truetype');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import '../../../bower_components/bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-theme';
+@import '../../../bower_components/font-awesome/css/font-awesome.min.css';
+@import '../../../bower_components/animate.css/animate.min.css';
+
+/*==========================
+ # 2. Global Styles
+ =========================*/
+html {
+  background: url(../images/bg-blush.png) repeat center top fixed;
+  background-color: $color-blush;
+  background-size: auto;
+}
+
+body {
+  font-family: $font-gothic;
+  color: $color-blue-dark;
+  background: url(../images/bg-flowers2.svg) no-repeat center top fixed;
+  background-color: transparent;
+  background-size: auto;
+}
+
+.row {
+  margin: 0;
+}
+
+.container{
+  padding: 0;
+}
+.main-container{
+  background-color: $color-white;
+  text-align: center;
+}
+
+/*==========================
+ # 3. Header / navbar styles
+ =========================*/
+.header-arch {
+  background: url(../images/bg-header.svg) no-repeat center top scroll;
+  background-color: transparent;
+  background-size: auto;
+  text-align: center;
+
+  //.logo-wrapper {
+  //  display: table-cell;
+  //  vertical-align: bottom;
+  //  text-align: center;
+  //  border: 0;
+  //  .logo{
+  //    background-color: #00b3ee;
+  //    text-align: center;
+  //  }
+  //  .logo img {
+  //    margin-top: 24px;
+  //  }
+  //
+  //  .combined-logo-title {
+  //    font-family: $font-anthem;
+  //    font-size: $font-size-5;
+  //    width: 100px;
+  //    position: relative;
+  //    bottom: 20px;
+  //    .name-delimiter {
+  //      text-align: center;
+  //      vertical-align: baseline;
+  //      padding-top: 8px;
+  //      font-size: $font-size-4;
+  //    }
+  //    .left-name, .right-name {
+  //      padding: 0;
+  //    }
+  //    .left-name {
+  //      text-align: right;
+  //    }
+  //    .right-name {
+  //      text-align: left;
+  //    }
+  //  }
+  //
+  //}
+
+}
+
+.navbar {
+  border: 0;
+  font-family: $font-gothic;
+  text-transform: uppercase;
+  margin-bottom: 0;
+
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.divider-line-below-menu {
+  background-repeat:repeat-x;
+  background-position:0 0;
+  background-attachment:scroll;
+  background-color:$color-white;
+  background-size:auto;
+  width:90%;
+  height:41px;
+
+
+}
+
+
+/*==========================
+ # Effects
+ =========================*/
+* {
+  transition: all 300ms ease-out 0s;
+}
