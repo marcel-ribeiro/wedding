@@ -1,3 +1,9 @@
+@import url(../../../../../bower_components/bootstrap/dist/css/bootstrap.css);
+@import url(_bootstrap-theme.css);
+@import url(mbr-additional.css);
+@import url(_mobirise-slider.css);
+
+
 .is-builder .animated {
   -webkit-animation-name: none !important;
   animation-name: none !important;

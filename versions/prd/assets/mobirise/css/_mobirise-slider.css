@@ -6,7 +6,7 @@
 .mbr-slider .carousel-inner > .active,
 .mbr-slider .carousel-inner > .next,
 .mbr-slider .carousel-inner > .prev {
-	display: table;
+    display: table;
 }
 .mbr-slider .carousel-control {
     background-image: none;
@@ -24,14 +24,14 @@
     transition: all 0.2s ease-in-out 0s;
 }
 .mbr-slider .carousel-control.left {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 .mbr-slider .carousel-control.right {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 .mbr-slider .carousel-control:hover {
-	background: #fff;
-	color: #000;
+    background: #fff;
+    color: #000;
 }
 .mbr-slider .carousel-indicators {
     bottom: 20px;
