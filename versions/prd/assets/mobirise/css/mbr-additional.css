@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes:400:300:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+#slider-13 H1 {
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+}
+#ext_menu-14.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
+  opacity: 1;  /* Opacity for Modern Browsers */
+  filter: alpha(opacity=100);  /* Opacity for IE8 and lower */
+  zoom: 1;  /* Fix for IE7 */
+}
+#header3-11 P {
+  text-align: right;
+}
+#header3-11 H3 {
+  text-align: center;
+  color: #356782;
+}
+#msg-box5-42 .mbr-header__text {
+  color: #356782;
+}
+#msg-box5-42 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box5-42 .mbr-article {
+  color: #ffffff;
+}
+#msg-box5-42 .mbr-article P {
+  font-size: 14px;
+  color: #356782;
+}
+#msg-box5-42 .mbr-article DIV {
+  color: #356782;
+}
+#content5-14 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-14 .mbr-article {
+  color: #fff;
+}
+#content5-14 .mbr-article P {
+  color: #356782;
+}
+#contacts2-15 P {
+  color: #356782;
+}
+#contacts2-15 UL {
+  color: #356782;
+}
+#content5-12 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-12 .mbr-article {
+  color: #fff;
+}
+#content5-12 .mbr-article P {
+  color: #356782;
+  text-align: left;
+}
+#content4-14 .mbr-section__col .mbr-header__text {
+  color: #356782;
+}
+#content4-14 P {
+  color: #356782;
+}
+.mbr-header__text {
+  text-align: center;
+  color: #356782;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+}
+#form1-20 {
+  color: #356782;
+}
+#contacts1-17 STRONG {
+  color: #ffffff;
+  text-align: right;
+}
+#contacts1-17 P {
+  color: #ffffff;
+}
