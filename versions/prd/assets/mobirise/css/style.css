@@ -1154,18 +1154,14 @@ body{
 .mbr-social-icons--style-1 .mbr-social-icons__icon:hover {
   background: #252525 !important;
 }
+/*details*/
 .mbr-details {
-  color: #9c9c9c;
   font-size: 16px;
   line-height: 1.7em;
   padding: 15px 0 15px;
 }
 .mbr-details .mbr-details-header {
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
-  font-size: 35px;
-}
-.mbr-details .mbr-details-header{
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;
   font-size: 35px;
 }
 .mbr-details__img {
@@ -1190,7 +1186,32 @@ body{
   margin: 0;
   padding: 0;
 }
+/*accommodations*/
 
+.section-accommodation{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.accommodations-panels-container .panel{
+  height: 300px;
+  overflow: hidden;
+}
+.accommodations-panels-container .panel .panel-heading{
+  height: 25%;
+}
+.accommodations-panels-container .panel .panel-body{
+  height: 45%;
+}
+.accommodations-panels-container .panel .panel-footer{
+  height: 30%;
+}
+.panel-default i, .panel-default i:hover {
+  margin-right: 10px;
+  color: #ffc1b9;
+}
+
+/*contacts*/
 .mbr-contacts {
   color: #9c9c9c;
   line-height: 1.7em;
@@ -1394,11 +1415,8 @@ body{
 .mbr-article--wysiwyg h4,
 .mbr-article--wysiwyg h5,
 .mbr-article--wysiwyg h6 {
-  color: #252525;
-  display: block;
-  font-weight: bold;
-  line-height: 1.3em;
-  text-align: left;
+  color: #356782;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold', 'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;
 }
 .mbr-article--wysiwyg h1 {
   font-size: 27px;
@@ -1664,7 +1682,7 @@ body{
 }
 
 
-@media (min-width : 992px) {
+@media (min-width : 1290px) {
   .content-outer{
     margin-left:0px;
     padding:0em 0;
@@ -1716,6 +1734,15 @@ body{
   }
 }
 
+.text-center {
+  text-align: center;
+}.text-left {
+  text-align: left;
+}
+.text-pink{
+  color: #ffc1b9;
+  font-weight: bolder;
+}
 
 .btn-languages{
   width: 150px;
@@ -1744,9 +1771,6 @@ body{
 
 .section-our-story-title, .section-our-story, .section-details-title, .section-details, .section-accommodation, .section-contact{
   background-color:#FFFFFF;
-}
-.section-accommodation{
-  margin-top: 30px;
 }
 
 .section-rsvp{
