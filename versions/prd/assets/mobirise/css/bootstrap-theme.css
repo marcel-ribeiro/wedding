@@ -2924,8 +2924,9 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #fecec8;
-  border-color: #f85f39;
+  border-color: #ffc1b9;
+  color: #ffffff;
+  background-color: #fcb6ad;
 }
 .btn-danger .badge {
   color: #fecec8;
