@@ -45,7 +45,7 @@ body{
   background-attachment: scroll !important;
 }
 .mbr-navbar {
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive,'Gothic', "Roboto", Helvetica, Arial, sans-serif;;
   position: relative;
   width: 100%;
 }
@@ -1161,7 +1161,7 @@ body{
   padding: 15px 0 15px;
 }
 .mbr-details .mbr-details-header {
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive,'Gothic', "Roboto", Helvetica, Arial, sans-serif;
   font-size: 35px;
 }
 .mbr-details__img {
@@ -1218,7 +1218,7 @@ body{
   padding: 15px 0 15px;
 }
 .mbr-contacts .mbr-contacts-header{
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive,'Gothic', "Roboto", Helvetica, Arial, sans-serif;;
   font-size: 30px;
 }
 .mbr-contacts__img {
@@ -1416,7 +1416,7 @@ body{
 .mbr-article--wysiwyg h5,
 .mbr-article--wysiwyg h6 {
   color: #356782;
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold', 'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold', 'Great Vibes', cursive,'Gothic', "Roboto", Helvetica, Arial, sans-serif;
 }
 .mbr-article--wysiwyg h1 {
   font-size: 27px;
@@ -1674,6 +1674,11 @@ body{
   src: url('../../fonts/murrayhillboldregular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: "Gothic";
+  src: url('../../fonts/Gothic.ttf') format('truetype');
+}
+
 .mbr-navbar--opaque .mbr-navbar__section {
   background-color: rgba(255,255,255, 0.6);
 }
@@ -1698,7 +1703,7 @@ body{
   margin: 0px;
 }
 .btn{
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive,'Gothic', "Roboto", Helvetica, Arial, sans-serif;;
 }
 @media (min-width: 1000px) {
   .btn{
@@ -1770,7 +1775,7 @@ body{
 }
 
 .mbr-slider{
-  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive, "Roboto", Helvetica, Arial, sans-serif;;
+  font-family: 'Anthem', 'Monterey', 'Murray Hill BT Bold',  'Great Vibes', cursive,'Gothic', "Roboto", Helvetica, Arial, sans-serif;;
 }
 
 .section-our-story-title, .section-our-story, .section-details-title, .section-details, .section-accommodation, .section-contact{
