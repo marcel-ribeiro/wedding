@@ -2898,8 +2898,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #ffc1b9;
-  border-color: #ffc1b9;
+  background-color: #ffc1b9 !important;
+  border-color: #ffc1b9 !important;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -2924,9 +2924,9 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  border-color: #ffc1b9;
+  border-color: #ffc1b9 !important;
   color: #ffffff;
-  background-color: #fcb6ad;
+  background-color: #fcb6ad !important;
 }
 .btn-danger .badge {
   color: #fecec8;
