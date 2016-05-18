@@ -1195,7 +1195,7 @@ body{
 }
 
 .accommodations-panels-container .panel{
-  height: 300px;
+  height: 340px;
   overflow: hidden;
 }
 .accommodations-panels-container .panel .panel-heading{
@@ -1206,6 +1206,8 @@ body{
 }
 .accommodations-panels-container .panel .panel-footer{
   height: 30%;
+  padding-left: 0;
+  padding-right: 0;
 }
 .panel-default i, .panel-default i:hover {
   margin-right: 10px;
