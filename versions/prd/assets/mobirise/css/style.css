@@ -1124,16 +1124,31 @@ body{
 }
 /*accommodations*/
 
+.no-padding{
+  padding: 0;
+}
+
 .section-accommodation{
   margin-top: 30px;
   margin-bottom: 40px;
 }
 
+.accommodations-panels-container .panel .panel-footer{
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 12px;
+}
 .panel-default i, .panel-default i:hover {
   margin-right: 10px;
   color: #ffc1b9;
 }
-
+.image-accommodation{
+  /*width: 400px;*/
+  min-height: 290px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: right bottom;
+}
 /*contacts*/
 .mbr-contacts {
   color: #9c9c9c;
