@@ -782,12 +782,10 @@ body{
   display: none;
 }
 .mbr-figure--full-width iframe,
-.mbr-figure--full-width .mbr-figure__img,
 .mbr-figure--full-width .mbr-figure__map {
   width: 100%;
 }
 .mbr-figure iframe,
-.mbr-figure__img,
 .mbr-figure__map {
   max-width: 100%;
 }
@@ -895,7 +893,6 @@ body{
     width: 100%;
   }
   .mbr-figure--adapted iframe,
-  .mbr-figure--adapted .mbr-figure__img,
   .mbr-figure--adapted .mbr-figure__map {
     width: 100%;
   }
@@ -1078,6 +1075,21 @@ body{
 .mbr-social-icons--style-1 .mbr-social-icons__icon:hover {
   background: #252525 !important;
 }
+
+/*begin:our story*/
+.section-our-story{
+  color: #356782;
+}
+.image-width-50{
+  width: 50%;
+}
+.image-left{
+  float: left;
+  margin: 15px;
+}
+/*end:our story*/
+
+
 /*details*/
 .mbr-details {
   font-size: 16px;
