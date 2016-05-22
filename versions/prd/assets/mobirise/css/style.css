@@ -756,12 +756,15 @@ body{
   top: 8px;
 }
 .mbr-hero__subtext {
-  font-size: 30px;
-  line-height: 29px;
+  font-size: 26px;
+  line-height: 32px;
   margin: -32px 0 3px 0;
   padding: 0 0 41px 0;
   position: relative;
   top: 6px;
+}
+.mbr-hero__subtext span{
+  font-size: 24px;
 }
 .mbr-figure {
   display: inline-block;
@@ -1147,6 +1150,11 @@ body{
   min-height: 290px;
   overflow: hidden;
   background-size: cover;
+}
+.image-accommodation.align-left{
+  background-position: left bottom;
+}
+.image-accommodation.align-right{
   background-position: right bottom;
 }
 /*contacts*/
