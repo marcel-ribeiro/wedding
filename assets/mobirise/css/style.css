@@ -1752,7 +1752,7 @@ body{
   margin: 0px 0px 0px 8px;
 }
 
-.fa, .fa:hover, .fa:focus {
+.mbr-contacts .fa, .mbr-contacts .fa:hover, .mbr-contacts .fa:focus {
   color: #fff;
 }
 
