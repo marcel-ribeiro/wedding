@@ -1768,3 +1768,13 @@ body{
 * {
   transition: all 300ms ease-out 0s;
 }
+
+
+/* trasportation-timetable */
+.trasportation-timetable th {
+  width: 20%;
+}
+.trasportation-timetable td {
+  width: 40%;
+}
+/* trasportation-timetable */
